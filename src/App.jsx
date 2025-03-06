@@ -15,7 +15,7 @@ const initialList = [
 ];
 */
 function App() {
-  const [isDark, setIsDark] = useState(false); //for dark mode and day mode
+  const [isDark, setIsDark] = useState(true); //for dark mode and day mode
   const [filter, setFilter] = useState("all"); //"all", "active", "completed"
   const [todos, setTodos] = useState(() => {
     // retrieve saved todos data from localStorage and set as initial set
